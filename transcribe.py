@@ -125,7 +125,6 @@ class WhisperModel:
                 model_size_or_path,
                 local_files_only=local_files_only,
                 cache_dir=download_root,
-                output_dir="/workspace/faster_whisper/models",
             )
 
         self.model = ctranslate2.models.Whisper(
